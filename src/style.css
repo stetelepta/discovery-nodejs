@@ -20,6 +20,22 @@ html {
   color: #000;
 }
 
+#logo-orikami{
+  height:60px;
+}
+
+#logo-fme {
+  height:40px;
+}
+
+#orikami, #fme {
+  border: 0 none;
+}
+
+.bottom-nav-bar{
+  background: #000;
+}
+
 .base--p {
   font-weight: 300;
 }
@@ -51,12 +67,12 @@ html {
 }
 
 .tab-panels--tab.base--a:hover, .tab-panels--tab.base--a:focus, .tab-panels--tab.base--a.active {
-  border-color: #9753e1;
+  border-color: #6BC9C2;
 }
 
 .tab-panels--tab.base--a.active {
   font-weight: 400;
-  color: #9753e1;
+  color: #6BC9C2;
 }
 
 .demo-container--div {
@@ -713,7 +729,7 @@ html {
 }
 .query {
   padding: 0rem;
-  background: linear-gradient(90deg, #9753e1 50%, #ffffff 50%);
+  background: linear-gradient(90deg, #6BC9C2 50%, #ffffff 50%);
 }
 .query--no-results-wrapper {
   width: 100%;
@@ -721,7 +737,7 @@ html {
 }
 .query--no-results {
   width: 70%;
-  color: #9753e1;
+  color: #6BC9C2;
   height: 12rem;
   white-space: nowrap;
   overflow-x: hidden;
@@ -741,7 +757,7 @@ html {
 .query--left {
   padding: 4rem 2rem;
   width: 100%;
-  background-color: #9753e1;
+  background-color: #6BC9C2;
 }
 
 .query--right {
@@ -765,7 +781,7 @@ html {
 }
 
 .query--query-description {
-  color: #9753e1;
+  color: #6BC9C2;
   font-size: 1.3em;
   margin-bottom: 2rem;
 }
@@ -776,7 +792,7 @@ html {
 }
 
 .query--query-list-item:before {
-  color: #9753e1;
+  color: #6BC9C2;
   font-size: 1.1em;
   vertical-align: middle;
 }
@@ -1077,7 +1093,7 @@ html {
   min-height: auto;
   padding: 4rem 0rem;
   background: none;
-  background-color: #9753e1;
+  background-color: #6BC9C2;
 }
 .query_collapsed .query--search-container {
   margin-top: 0rem;
@@ -1100,7 +1116,7 @@ html {
 
 .results--a,
 .results--a:visited {
-  color: #9753e1;
+  color: #6BC9C2;
   font-weight: inherit;
   background: transparent;
   border: none;

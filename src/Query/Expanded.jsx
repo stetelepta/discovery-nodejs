@@ -60,19 +60,14 @@ export default class QueryExpanded extends Component {
           </div>
           <div className="query--right">
             <p className="base--p query--query-description">
-              Quickly find insights in the Watson Discovery News data collection
-              of recent news articles. Easily explore a company&apos;s:
+              Quickly find insights in recent news articles. Easily explore a company&apos;s:
             </p>
             <ul className="base--ul query--query-list">
-              <li className="base--li query--query-list-item">Top stories over the last two months</li>
-              <li className="base--li query--query-list-item">Top entities (people, topics, companies) mentioned in those articles</li>
-              <li className="base--li query--query-list-item">Trend of public sentiment in news</li>
-              <li className="base--li query--query-list-item">Anomalous periods of high press coverage</li>
-              <li className="base--li query--query-list-item">Trend of most commonly paired entities (co-mentions)</li>
+              <li className="base--li query--query-list-item"><strong>Top stories</strong> over the last two months</li>
+              <li className="base--li query--query-list-item"><strong>Top entities (people, topics, companies)</strong> mentioned</li>
+              <li className="base--li query--query-list-item"><strong>Trend</strong> of public sentiment in news</li>
+              <li className="base--li query--query-list-item"><strong>Anomalous periods</strong> of high press coverage</li>
             </ul>
-            <p className="base--p query--query-description">
-              Watson Discovery also lets you do the same analysis with your own data. Learn more <a href="https://ibm.biz/WatsonDiscovery">here</a>.
-            </p>
           </div>
         </div>
       </section>

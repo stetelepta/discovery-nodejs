@@ -5,24 +5,35 @@ import Demo from './demo';
 export default function Layout() {
   return (
     <div>
-      <Header
-        mainBreadcrumbs="Discovery"
-        mainBreadcrumbsUrl="http://www.ibm.com/watson/developercloud/discovery.html"
-        subBreadcrumbs="Discovery Demo"
-        subBreadcrumbsUrl="https://discovery-news-demo.mybluemix.net"
-      />
+      <header className="header">
+        <div className="header--wordmark">
+          <a id="fme" href="/" className="header--wordmark-link">
+            <img id="logo-fme" src="https://www.fme.nl/sites/default/themes/fme/logo.png" />
+          </a>
+        </div>
+    </header>
       <Jumbotron
-        serviceName="Discovery"
-        repository="https://github.com/watson-developer-cloud/discovery-nodejs"
-        documentation="https://console.bluemix.net/docs/services/discovery/index.html"
-        apiReference="http://www.ibm.com/watson/developercloud/discovery/api"
+        serviceName="FME Oracle Demo - Watson Discovery"
+        repository=""
+        documentation=""
+        apiReference=""
         startInBluemix="https://console.ng.bluemix.net/registration/?target=/catalog/services/discovery/"
         version="GA"
-        description="Unlock hidden value in data to find answers, monitor trends and surface patterns, with the world’s most advanced cloud-native insight engine."
+        description="Unlock hidden value in data to find answers, monitor trends and surface patterns."
       />
       <Demo />
       <div className="footer-container--div">
-        <Footer />
+        <div>
+      <footer className="_full-width-row bottom-nav-bar">
+        <div className="_container _container_xx-large">
+          <div className="bottom-nav-bar--icon">
+            <a id="orikami" href="https://www.orikami.nl" title="www.orikami.nl"><img id="logo-orikami" src="/static/images/orikami-logo.png" /></a>
+          </div>
+          <nav className="bottom-nav-bar--nav">
+          </nav>
+        </div>
+      </footer>
+    </div>
       </div>
     </div>
   );
